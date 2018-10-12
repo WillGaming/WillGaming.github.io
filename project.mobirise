@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WillGaming",
-    "currentPage": "games.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -10,7 +10,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 45,
+    "uniqCompNum": 47,
     "versionPublish": "4.6.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -20,7 +20,7 @@
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-127340825-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-127340825-1');\r\n</script>\r\n<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\r\n<script>\r\n  (adsbygoogle = window.adsbygoogle || []).push({\r\n    google_ad_client: \"ca-pub-9545614394993750\",\r\n    enable_page_level_ads: true\r\n  });\r\n</script>\r\n",
-    "cookiesAlert": "We use cookies to give you the best experience. Click OK to accept",
+    "cookiesAlert": "",
     "sitemapSwitcher": "on"
   },
   "pages": {
@@ -186,13 +186,96 @@
           },
           "title": "Easy To Play Games!",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Get Started playing WillGaming games by downloading hopscotch, and then heading over to the link below!</p><p>OR<br>Get Started playing PC Games too at the link below!</p>",
+          "text": "<p>Get Started playing WillGaming games by downloading hopscotch, and then heading over to the link below! OR Get Started playing PC Games at the link below!</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"hopscotch.html\" data-toolbar=\"-mbrBtnMove\">Play Now</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box3",
           "_anchor": "msg-box3-5"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "images/slide1.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Free Games",
+                "contentAlign": "right",
+                "text": "Play our 2 latest pc games here! They are very fun, but do require a pc to play:",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://willgaming.github.io/ghostrunner\" data-toolbar=\"-mbrBtnMove\">Ghost Runner</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://willgaming.github.io/hexidodge\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Hexidodge</a>"
+              },
+              {
+                "image": "images/slide2.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Hopscotch New Games",
+                "contentAlign": "left",
+                "text": "We are constantly adding to our collection of games, and hopscotch games are a big chunk of that, here are some of our favorite Hopscotch games to play:",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://c.gethopscotch.com/p/zi2oq3z06\" data-toolbar=\"-mbrBtnMove\">Blocky Run</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://c.gethopscotch.com/p/zr5ygs9i1\" data-toolbar=\"-mbrBtnMove\">On The Line</a>"
+              },
+              {
+                "image": "images/slide3.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "title": "Get Started By Checking out our Constantly growing Catalog!",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest games on Hopscotch or PC for free! These games take a lot of effort to make and we would really appreciate some honest feedback for bugs and other things!",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"games.html#buttons1-h\" data-toolbar=\"-mbrBtnMove\">Hopscotch Games</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"games.html#buttons1-o\" data-toolbar=\"-mbrBtnMove\">PC Games</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-1a"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "right",
+            "bgImageRadio": false,
+            "bgImage": "images/bg2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "ABOUT US",
+          "text": "WillGaming is a free gaming service that uses API's and coding platforms such as Hopscotch and Code.org to deliver nonstop original and quality games. <br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"about.html#header2-c\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header2",
+          "_anchor": "header2-19"
         },
         {
           "_params": {
@@ -310,11 +393,9 @@
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#4c6972"
             },
-            ".mbr-navbar__section": {
-              "background": "#4c6972"
-            },
+            ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#c1c1c1"
             }
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html\">GAMES</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://willgaming.github.io/leaderboard\">LEADERBOARD</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">ABOUT</a></li>",
@@ -743,7 +824,7 @@
           "_anchor": "content1-s"
         },
         {
-          "text": "<p>Mobile Hopscotch Games!</p>",
+          "text": "<p>Mobile Hopscotch Games!</p><p>These Games were made on the mobile Coding platform: Hopscotch</p><p>We hope you enjoy these games as much as us and hope yu come back to visit!</p>",
           "_tags": [
             "Theme"
           ],
@@ -788,7 +869,7 @@
           "_anchor": "content1-u"
         },
         {
-          "text": "<p>PC/Mac Exlusives</p>",
+          "text": "<p>PC/Mac Exlusives</p><p>These are games built on the Unity Game Engine and uses real coding languages like C# to code the games!&nbsp;</p><p>These took a while to make so we hope you enjoy these as much as us!<br>Make sure to visit us again at WillGaming!</p>",
           "_tags": [
             "Theme"
           ],
@@ -833,7 +914,7 @@
           "_anchor": "buttons1-r"
         },
         {
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://c.gethopscotch.com/p/zp7qpwosu\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Ghostrunner</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://willgaming.github.io/ghostrunner\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Ghostrunner</a> ",
           "_tags": [
             "Theme"
           ],
