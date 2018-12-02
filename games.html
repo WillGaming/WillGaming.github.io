@@ -15,10 +15,7 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
-</head>
-<body>
-<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
 <script>
   // Initialize Firebase
   var config = {
@@ -31,7 +28,7 @@
   };
   firebase.initializeApp(config);
 </script>
-    <body>
+    
     
     
     
@@ -40,9 +37,10 @@
         
         firebase.auth().onAuthStateChanged(function(user){
             if (user) {
+               
             }else{
                 document.body.innerHTML = "No User Logged in, redirecting to login page..."
-                window.location.replace("/index.html")
+                window.location.replace("./index.html")
             }
             
             
@@ -61,10 +59,9 @@
         
         
         </script>
-    
-    
-    
-    
+</head>
+<body>
+
 <!-- Google Analytics -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127340825-1"></script>
@@ -110,7 +107,7 @@
     </div>
 </section>
 
-<section class="engine"><a href="https://mobirise.ws/c">best free site maker</a></section><section class="mbr-section mbr-after-navbar" id="image2-m" data-rv-view="96">
+<section class="engine"><a href="https://mobirise.ws/a">best free web site builder</a></section><section class="mbr-section mbr-after-navbar" id="image2-m" data-rv-view="96">
     <div class="mbr-section__container container mbr-section__container--first">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
@@ -121,6 +118,16 @@
                         <small class="mbr-figure__caption-small">Play awesome mobile-friendly games, free and no hassle!</small>
                     </figcaption>
                 </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="buttons1-1j" data-rv-view="139">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="mbr-buttons mbr-buttons--center"> <a class="mbr-buttons__btn btn btn-lg btn-default" href="./signOut.html">Sign Out</a></div>
             </div>
         </div>
     </div>

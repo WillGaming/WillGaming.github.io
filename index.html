@@ -29,7 +29,7 @@
     <script type="text/javascript">
          firebase.auth().onAuthStateChanged(function(user){
             if (user) {
-                window.location.replace("./home.html")
+               window.location.href = "./home.html"
             }      
             
                     
@@ -65,7 +65,7 @@
   <body>
     <!-- The surrounding HTML is left untouched by FirebaseUI.
          Your app may use that space for branding, controls and other customizations.-->
-    <h1>Welcome to My Awesome App</h1>
+    <h1>Hello, welcome to WillGaming, please sign up or sign in using the buttons below</h1>
     <div id="firebaseui-auth-container"></div>
   </body>
 </html>

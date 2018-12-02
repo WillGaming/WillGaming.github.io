@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WillGaming",
-    "currentPage": "games.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -10,7 +10,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 55,
+    "uniqCompNum": 57,
     "versionPublish": "4.6.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -475,12 +475,25 @@
           "_anchor": "image2-m"
         },
         {
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"./signOut.html\" data-toolbar=\"-mbrBtnMove\">Sign Out</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1j"
+        },
+        {
           "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-s"
+          "_anchor": "content1-s",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "text": "<p>Mobile Hopscotch Games!</p><p>These Games were made on the mobile Coding platform: Hopscotch</p><p>We hope you enjoy these games as much as us and hope yu come back to visit!</p>",
@@ -1030,6 +1043,14 @@
           ],
           "_name": "image2",
           "_anchor": "image2-f"
+        },
+        {
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"./signOut.html\" data-toolbar=\"-mbrBtnMove\">Sign Out</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1k"
         },
         {
           "_params": {
