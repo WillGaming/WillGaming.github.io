@@ -18,7 +18,53 @@
   
 </head>
 <body>
-
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDlHEOewmayeQIhOobrNwcdLGZDDABW7T0",
+    authDomain: "amazingwebauth.firebaseapp.com",
+    databaseURL: "https://amazingwebauth.firebaseio.com",
+    projectId: "amazingwebauth",
+    storageBucket: "amazingwebauth.appspot.com",
+    messagingSenderId: "979628882020"
+  };
+  firebase.initializeApp(config);
+</script>
+    <body>
+    
+    
+    
+    
+    <script>
+        
+        firebase.auth().onAuthStateChanged(function(user){
+            if (user) {
+            }else{
+                document.body.innerHTML = "No User Logged in, redirecting to login page..."
+                window.location.replace("/index.html")
+            }
+            
+            
+            
+            
+            
+            
+            
+        });
+        
+        
+        
+        
+        
+        
+        
+        
+        </script>
+    
+    
+    
+    
 <!-- Google Analytics -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127340825-1"></script>
